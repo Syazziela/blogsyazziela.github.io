@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lala Galaxy Blog</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+       
+
+        /* VIDEO BACKGROUND */
+
+        #bg-video{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        /* DARK OVERLAY */
+
+        .overlay{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: -1;
+        }
+
+        /* HEADER */
+
+        header{
+            background: rgba(0,0,0,0.4);
+            padding: 25px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        header p{
+            margin-top: 10px;
+            color: #dbeafe;
+        }
+
+        /* NAVIGATION */
+
+        nav{
+            background-color: rgba(17,24,39,0.8);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            backdrop-filter: blur(10px);
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(to right, #2563eb, #7c3aed);
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 30px;
+            display: inline-block;
+            transition: 0.3s;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(255,255,255,0.3);
+        }
+
+        nav a:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #60a5fa;
+        }
+
+        /* PAGE */
+
+        .page{
+            min-height: 100vh;
+            padding: 50px;
+            display: none;
+        }
+
+        .page:target{
+            display: block;
+        }
+
+        #home{
+            display: block;
+        }
+
+        /* CARD */
+
+        .card{
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 25px;
+            margin-top: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 25px rgba(0,0,0,0.5);
+        }
+
+        h2{
+            color: #93c5fd;
+            margin-bottom: 15px;
+        }
+
+        /* BUTTON */
+
+        button{
+            padding: 12px 20px;
+            border: none;
+            background: linear-gradient(to right, #3b82f6, #8b5cf6);
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: 0.3s;
+            font-size: 15px;
+        }
+
+        button:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #60a5fa;
+        }
+
+        /* TABLE */
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td{
+            border: 1px solid white;
+        }
+
+        th{
+            background-color: #2563eb;
+        }
+
+        th, td{
+            padding: 15px;
+            text-align: center;
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        /* FORM */
+
+        input, textarea{
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        /* FOOTER */
+
+        footer{
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(17,24,39,0.8);
+            backdrop-filter: blur(10px);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- BACKGROUND VIDEO -->
+
+   <video autoplay muted loop id="bg-video">
+        <source src="mvhypeman.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <!-- HEADER -->
+
+    <header>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: 'Playwrite England SemiJoined', cursive;
+            color: #F7FCF8;
+        }
+    </style>
+	<style>
+        h1{
+            font-family: 'Supermercado One', cursive;
+            color: blue;
+        }
+    </style>
+
+        <h1>🌌 WELCOME TO SYAZZIELA'S BLOG </h1>
+        <p><center>Welcome to my galaxy universe 💙</center></p>
+    </header>
+	
+
+    <!-- NAVIGATION -->
+
+    <nav>
+        <a href="#home">🏠 Home</a>
+        <a href="#about">💖 About</a>
+        <a href="#education">📖 Education</a>
+        <a href="#song">🎬 SONG</a>
+        <a href="#contact">📞 Contact</a>
+    </nav>
+
+    <!-- HOME PAGE -->
+
+    <section id="home" class="page">
+
+        <div class="card">
+	    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        h2{
+            font-family: 'Cause', cursive;
+            color: #6CC6E0;
+        }
+    </style>
+
+
+            <center><h2>🏠 Home</h2></center>
+
+            <p><center>
+                Hello everyone! Welcome to my aesthetic galaxy website.
+            </center></p>
+	    <br></br>
+            <center><img src="lalala.jpg" alt="profile" width="500"></center>
+
+            <br></br>
+	    <p><center>HI! My name is Nur Syazziela binti Muhamad Sharuddin, but everyone calls me Lala. I am from Tanjong Malim, Perak, and I am 20 years old, born on 29th March 2006. I am studying a Bachelor's Degree in Library Management under the program code SI260.</center></p>
+	    <br></br>
+	    <h2>📱 SOCIAL MEDIA </h2>
+	     <style>
+		.ig-container{
+   		display: flex;
+    		align-items: center;
+    		gap: 20px;
+		}
+
+		.ig-container p{
+    		margin: 0;
+    		font-size: 20px;
+    		font-family: Times New Roman;
+		}
+
+	    </style>
+	    <div class="ig-container">
+	    	<a href="https://www.instagram.com/laluna.xy?igsh=bWxya2E3ZzdrczZ6"><img src="instagram.jpg" width="50" height="50"></a>
+	    	<p>@laluna.xy</p>
+	    </div>
+	    <br></br>
+	     <style>
+		.tt-container{
+   		display: flex;
+    		align-items: center;
+    		gap: 20px;
+		}
+
+		.tt-container p{
+    		margin: 0;
+    		font-size: 20px;
+    		font-family: Times New Roman;
+		}
+
+	    </style>
+	    <div class="tt-container">
+	    	<a href="https://www.tiktok.com/@lynlaxie?_r=1&_t=ZS-96K1xzSdXHt"><img src="tiktokk.png" width="50" height="50"></a>
+	    	<p>@lynlaxie</p>
+	    </div>
+	    <br></br>
+	    <style>
+		.fb-container{
+   		display: flex;
+    		align-items: center;
+    		gap: 20px;
+		}
+
+		.fb-container p{
+    		margin: 0;
+    		font-size: 20px;
+    		font-family: Times New Roman;
+		}
+
+	    </style>
+	    <div class="fb-container">
+	    	<a href="https://www.facebook.com/share/1B5NczUdKg/"><img src="fb.png" width="50" height="50"></a>
+	    	<p>Ziela Lyn</p>
+	    </div>
+
+            
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT PAGE -->
+
+    <section id="about" class="page">
+
+        <div class="card">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        h2{
+            font-family: 'Cause', cursive;
+            color: #6CC6E0;
+        }
+    </style>
+
+            <center><h2>💖 About Me</h2></center>
+
+            <p><center>
+            	I want to talk a little bit about my family. I’m the youngest sister in my family, but not the youngest overall because I have a younger brother. I have the same birth date as my father. I have 2 brothers and 6 sisters, including myself. For the girls, our names follow the first letter of our father's name, while the boys. follow the first letter of our mother's name.
+            </center></p>
+	    <br></br>
+	    <h3>✨ My Family</h3>
+	    
+		<table>
+  			<tr>
+    				<th>Name</th>
+    				<th>Relation</th>
+    				<th>Birthday (Age)</th>
+  			</tr>
+  			<tr>
+    				<td>Muhamad Sharuddin</td>
+    				<td>Father</td>
+    				<td>29th March 1967 (59)</td>
+  			</tr>
+  			<tr>
+    				<td>Hasnie</td>
+    				<td>Mother</td>
+    				<td>25th September 1971 (55)</td>
+  			</tr>
+			<tr>
+    				<td>Mohd Hisham</td>
+    				<td>Brother</td>
+    				<td>27th February 1992 (34)</td>
+  			</tr>
+  			<tr>
+    				<td>Nur Syazwani</td>
+    				<td>Sister</td>
+    				<td>16th November 1993 (32)</td>
+  			</tr>
+			<tr>
+    				<td>Nur Syazhira</td>
+    				<td>Sister</td>
+    				<td>12nd March 1995 (31)</td>
+  			</tr>
+  			<tr>
+    				<td>Nur Aisyah</td>
+    				<td>Sister</td>
+    				<td>30th December 2002 </td>
+  			</tr>
+			<tr>
+    				<td>Nur Fatimah</td>
+    				<td>Sister</td>
+    				<td>30th December 2002 </td>
+  			</tr>
+  			<tr>
+    				<td>Nur Syazreena</td>
+    				<td>Sister</td>
+    				<td>14th July 2004 (22)</td>
+  			</tr>
+			<tr>
+    				<td>Nur Syazziela</td>
+    				<td>Me</td>
+    				<td>29th March 2006 (20) </td>
+  			</tr>
+  			<tr>
+    				<td>Muhammad Hiszrill Akhil</td>
+    				<td>Brother</td>
+    				<td>21st February 2008 (18)</td>
+  			</tr>
+		</table>
+		<br></br>
+		<marquee>
+		<img src="fam1.jpg" width="300">
+		<img src="fam2.jpg" width="300">
+		<img src="fam3.jpg" width="300">
+		<img src="ayah.jpg" width="300">
+		<img src="ibu.jpg" width="300">
+		<img src="alang.jpg" width="300">
+		<img src="kakakcik.jpg" width="300">
+		<img src="lala.jpg" width="300">
+		<img src="akhil.jpg" width="300">
+		</marquee>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION PAGE -->
+
+    <section id="education" class="page">
+
+        <div class="card">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        h2{
+            font-family: 'Cause', cursive;
+            color: #6CC6E0;
+        }
+    </style>
+
+
+            <center><h2>📖 Education Page</h2></center>
+	    <br></br>
+	    <p><center>I studied at SK Bandar Behrang 2020 for primary school. Then, for middle school and high school, I studied at SMK Bandar Behrang 2020. After that, I continued my matriculation studies at Kolej Matrikulasi Perak for one year in the Computer Science module. Lastly, I am currently studying at Universiti Teknologi MARA Kedah for a degree in Library Management.
+	    </center></p>
+	    <br></br>
+	    <table>
+  			<tr>
+    				<th>School / University</th>
+    				<th>Education level</th>
+    				<th>Years of study</th>
+  			</tr>
+  			<tr>
+    				<td>
+					<a href="https://maps.app.goo.gl/zY2vLjeyYgh3u9b27">
+					<img src="sk.png" width="150"></a>
+					<p>SK BANDAR BEHRANG 2020</p>
+				</td>
+    				<td>Primary School</td>
+    				<td>2013-2018</td>
+  			</tr>
+  			<tr>
+    				<td>
+					<a href="https://maps.app.goo.gl/gDHHp1HEApw1oqx29">
+					<img src="smk.png" width="150"></a>
+					<p>SMK BANDAR BEHRANG 2020</p>
+				</td>
+    				<td>Middle School</td>
+    				<td>2019-2021</td>
+  			</tr>
+			<tr>
+    				<td>
+					<a href="https://maps.app.goo.gl/gDHHp1HEApw1oqx29">
+					<img src="smk.png" width="150"></a>
+					<p>SMK BANDAR BEHRANG 2020</p>
+				</td>
+    				<td>High School</td>
+    				<td>2022-2024</td>
+  			</tr>
+  			<tr>
+    				<td>
+					<a href="https://maps.app.goo.gl/vqKuZyR7UDfevcHK7">
+					<img src="kmpk.png" width="150"></a>
+					<p>KOLEJ MATRIKULASI GOPENG, PERAK</p>
+				</td>
+    				<td>Matriculation</td>
+    				<td>2024/2025 Session</td>
+  			</tr>
+			<tr>
+    				<td>
+					<a href="https://maps.app.goo.gl/DQWCkwjPeVuHdS686">
+					<img src="uitm.png" width="150"></a>
+					<p>UITM Kedah Branch</p>
+				</td>
+    				<td>Bachelor's Degree in Library Management </td>
+    				<td>2025-now</td>
+  			</tr>
+	     </table>
+	  
+            
+        </div>
+
+    </section>
+
+    <!-- SONG PAGE -->
+
+    <section id="song" class="page">
+
+        <div class="card">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        h2{
+            font-family: 'Cause', cursive;
+            color: #6CC6E0;
+        }
+    </style>
+	
+	
+           <center><h3>✨ My Favourite Song 🎵</h3></center>
+	   <br></br>
+	   
+	  
+	       
+		<center><video width="400" height="300" controls>
+  			<source src="hypeman.mp4" type="video/mp4">
+  			<source src="hypeman.ogg" type="video/ogg">
+		</video></center>
+		<center><p>Hypeman by NEXZ (teaser)</p></center>
+		<br></br>
+            	
+                
+		<center><video width="400" height="300" controls>
+  			<source src="twenty.mp4" type="video/mp4">
+  			<source src="twenty.ogg" type="video/ogg">
+		</video></center>
+		<center><p>Twenty by Kickflip (teaser)</p></center>
+		<br></br>
+                
+		<center><video width="400" height="250" controls>
+  			<source src="han.mp4" type="video/mp4">
+  			<source src="han.ogg" type="video/ogg">
+		</video></center>
+		<center><p> Back to Life by StrayKids</p></center>
+     		<br></br>
+	   
+	<br></br>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT PAGE -->
+
+    <section id="contact" class="page">
+
+        <div class="card">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        h2{
+            font-family: 'Cause', cursive;
+            color: #6CC6E0;
+        }
+    </style>
+
+
+            <h2>📞 Contact Me</h2>
+
+            <form>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name">
+
+                <br><br>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email">
+
+                <br><br>
+
+                <label>Message</label>
+                <textarea rows="5" placeholder="Write your message"></textarea>
+
+                <br>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+	<p style="font-size:12px; font-family;'Times New Roman';">
+        © 2026 Syazziela Blog 💙 IML470 ASSIGNMENT
+Disclaimer: All images used in this website are owned by the creator and are not allowed to be copied, reused and owned without permission.</p>
+    </footer>
+
+</body>
+</html>
